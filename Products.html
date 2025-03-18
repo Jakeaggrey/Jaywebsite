@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="products">
+        <h2>Available Products</h2>
+        <div class="product">
+            <img src="images/Valentino Parfum.JPG" alt="Valentino Intense Parfum">
+            <h3>Valentino Intense Parfum</h3>
+            <p>£80</p>
+            <button onclick="addToCart('Valentino Intense Parfum', 80)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/Burlington.JPG" alt="Burlington 1819 Parfum">
+            <h3>Burlington 1819 Parfum</h3>
+            <p>£180</p>
+            <button onclick="addToCart('Burlington 1819 Parfum', 180)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/Baccarat.JPG" alt="Maison Francis Kurkdjian
+            Baccarat Rouge 540 Extrait de Parfum, 70ml">
+            <h3>Product 3</h3>
+            <p>£250</p>
+            <button onclick="addToCart('Product 3', 40)">Add to Cart</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
